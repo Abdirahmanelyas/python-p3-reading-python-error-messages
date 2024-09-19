@@ -1,3 +1,4 @@
-#!/usr/bin/env python3
+# lib/a_type_error.py
 
-wrong_type = 'abc' + 123
+correct_type = 'abc' + str(123)
+print(correct_type)
